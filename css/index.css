@@ -1,0 +1,190 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  html {
+      font-size: 20px;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  :root {
+      --accent-color: #496a8b;
+      --text-color: #f0e8e8;
+      --text-color-right: rgba(0, 0, 0, 0.699);
+      --accent-color-line: #7a9fc4;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .resume {
+      display: flex;
+  }
+
+  .title {
+      padding: 20px;
+  }
+
+  .text {
+      display: grid;
+      grid-row-start: 1;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      padding-left: 18px;
+      font-size: 1rem;
+      font-weight: 500;
+  }
+
+  .text-line {
+      text-decoration: underline;
+      padding-bottom: 36px;
+  }
+
+  .text-center {
+      text-align: center;
+  }
+
+  .level {
+      font-size: 1rem;
+      font-weight: 500;
+  }
+
+  .line {
+      width: 150px;
+      height: 5px;
+      background-color: var(--text-color);
+  }
+
+  .line-size {
+      width: 76px;
+  }
+
+  .resume__left {
+      background-image: url(../img/background-photo.jpg);
+      width: 320px;
+      height: 1200px;
+      color: var(--text-color);
+
+  }
+
+  .resume__left-photo {
+      width: 220px;
+      height: 280px;
+      display: flex;
+      margin: auto;
+      padding-top: 12px;
+  }
+
+  .resume__left-title {
+      font-size: 1.55rem;
+      font-weight: 700;
+      padding: 18px;
+      text-align: center;
+  }
+
+  .resume__left-subtitle {
+      font-size: 1.125rem;
+      font-weight: 600;
+      text-align: center;
+      padding-bottom: 16px;
+  }
+
+  .language {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 8px;
+  }
+
+  .resume__left-info {
+      border-bottom: 2px solid var(--text-color);
+      margin: 18px;
+      list-style-type: none;
+  }
+
+  .resume__left-info .info {
+      margin: 12px;
+  }
+
+  .resume__left-info .icon {
+      fill: var(--text-color);
+  }
+
+  .resume__left-info .info-text {
+
+      color: var(--text-color);
+      text-decoration: none;
+      margin-left: 18px;
+  }
+
+  .resume__left-info .info-text-size {
+      font-size: 0.8rem;
+  }
+
+  .resume__right {
+      background-color: #ebe7e7ec;
+      width: 420px;
+      height: 1200px;
+      color: var(--text-color-right);
+  }
+
+  .resume__right-subtitle {
+      color: var(--accent-color);
+      font-size: 1.125rem;
+      font-weight: 600;
+      padding: 16px 18px;
+  }
+
+  .data-text {
+      font-size: 1rem;
+      font-weight: 600;
+      padding-left: 18px;
+  }
+
+  .data-text-padding {
+      padding: 18px;
+  }
+
+  .resume__right-data {
+      font-size: 0.85rem;
+      padding-left: 18px;
+      padding-bottom: 12px;
+  }
+
+  .data-size {
+      width: 272px;
+  }
+
+  .resume__right-line {
+      width: 400px;
+      height: 1px;
+      background-color: var(--accent-color-line);
+      margin: auto;
+      margin-top: 22px;
+  }
+
+  .hobby-item {
+      width: 70px;
+      height: 70px;
+      border: 2px solid var(--accent-color);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .hobby-icon {
+      fill: var(--accent-color);
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .hobby {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      padding-top: 16px;
+  }
