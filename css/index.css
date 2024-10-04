@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #585c68;
+
   font-size: 14px;
   line-height: 22px;
   color: #555555;
@@ -28,19 +28,20 @@ body {
 }
 
 .resume {
-  width: auto;
+  width: 850px;
   height: auto;
   display: flex;
-  margin: 50px auto;
+  padding: 24px 10px;
 }
 
 .resume .resume_left {
   width: 320px;
-  background-color: #07b4f3;
+  background-color: #13536b;
 }
 
 .resume .resume_left .resume_profile {
-  height: 280px;
+  height: auto;
+  padding-top: 24px;
 }
 
 .resume .resume_left .resume_profile img {
@@ -166,6 +167,7 @@ padding-top: 6px;
 }
 
 .resume .resume_right {
+  border: 2px solid #13536b;
   width: 520px;
   background: #fff;
   padding: 25px;
@@ -252,9 +254,4 @@ padding-top: 6px;
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
-}
-@media print {
-    title, .date {
-        display: none;
-    }
 }
