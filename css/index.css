@@ -15,14 +15,7 @@ body {
   line-height: 22px;
   color: #555555;
 }
-@media print {
-    /* Ваші стилі для друку */
-    body {
-      visibility: visible;
-      display: block;
-    }
-  }
-  
+
 .bold {
   font-weight: 700;
   font-size: 20px;
@@ -35,7 +28,7 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: auto;
   height: auto;
   display: flex;
   margin: 50px auto;
